@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    color: black;
+    margin: 0;
+    background: white;
+   }
+   .containerOut {
+    display: flex;
+    flex-direction: row;
+    height: 500px!important;
+   }
+   .header{
+    margin: 0;
+    background-color: lightblue;
+    text-align: center;
+   }
+   .header h1 {
+    margin: 0;
+   }
+   .form {
+    margin: 0;
+   }
+   .container{
+    flex: 1!important;
+    margin: 10px;
+    min-height: 500px!important;
+   }
+   .container canvas {
+    width: 100%!important;
+    height: 100%!important;
+   }
+   .cisla{
+    width: 50px;
+   }
+   @media only screen and (max-width: 600px) {
+    .containerOut {
+    flex-direction: column;
+    }
+   
+    .containerOut {
+    height: 1500px!important;
+    }
+   }
+   
