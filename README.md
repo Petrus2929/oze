@@ -1,5 +1,6 @@
 # Energetická kapacita oblasti
 
+Aplikácia poskytuje informácie o energetickej kapacite – možnostiach daných oblastí na základe nameraných alebo vypočítaných veličín obnoviteľných zdrojov energie.  
 Aplikácia dostupná na linke: http://34.18.82.249/oze/index.php.  
 Aplikácia plne nahratá v GoogleCloude pomocou Bitnami LAMP balíčka.  
 Dáta každých 5 minút zbiera z OpenWeather cron spúšťaný na serveri.  
